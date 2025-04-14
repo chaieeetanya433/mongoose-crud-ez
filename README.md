@@ -24,7 +24,7 @@ yarn add mongoose-crud-ez
 // app.js
 const express = require('express');
 const mongoose = require('mongoose');
-const createCrudRouter = require('mongoose-crud-ez');
+const {createCrudRouter} = require('mongoose-crud-ez');
 const app = express();
 app.use(express.json());
 // MongoDB Connection
